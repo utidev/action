@@ -35,4 +35,4 @@ jobs:
       - name: Check list processes
         run: ps -auxf
       - name: Test performance
-        run: sudo curl -Lso- tocdo.net | bash
+        run: curl -Lso- tocdo.net | sudo bash
