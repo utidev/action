@@ -38,3 +38,5 @@ jobs:
         run: whoami
       - name: Check docker info
         run: docker info
+      - name: Check docker-compose
+        run: docker-compose --version
