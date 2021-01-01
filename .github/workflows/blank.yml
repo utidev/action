@@ -42,3 +42,5 @@ jobs:
         run: docker-compose --version
       - name: Check git version
         run: git --version
+      - name: Check port
+        run: ss -lntpu
